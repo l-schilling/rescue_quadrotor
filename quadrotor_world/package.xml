@@ -17,21 +17,13 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
-  <run_depend>gazebo_ros</run_depend>
-  <run_depend>gazebo_ros_control</run_depend>
-  <run_depend>gazebo_plugins</run_depend>
-  <run_depend>hector_gazebo_plugins</run_depend>
-  <run_depend version_gte="0.5">jackal_control</run_depend>
-  <run_depend version_gte="0.5">jackal_description</run_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_control</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>hector_gazebo_plugins</exec_depend>
 
   <export>
     <gazebo_ros gazebo_media_path="${prefix}"/>
   </export>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-
-  </export>
 </package>
