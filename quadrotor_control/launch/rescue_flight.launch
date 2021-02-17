@@ -3,7 +3,7 @@
 <launch>
   <arg name="gui"       default="true"/>
   <arg name="rviz"      default="true"/>
-  <arg name="world" default="$(find hector_quadrotor_gazebo)/worlds/rescue.world" />
+  <arg name="world" default="$(find quadrotor_gazebo)/worlds/rescue.world" />
 
   <!-- Start Gazebo. -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
