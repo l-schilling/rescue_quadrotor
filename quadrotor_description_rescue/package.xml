@@ -1,0 +1,20 @@
+<package>
+  <name>quadrotor_description_rescue</name>
+  <version>0.0.0</version>
+  <description>quadrotor_description__rescue and is based on hector_quadrotor_description package that provides an URDF model of a quadrotor UAV. This package fixes the camera position to make it work with the PAL Person detector</description>
+  <maintainer email="schilling@rob.uni-luebeck.de">Lars Schilling</maintainer>
+
+  <license>BSD</license>
+
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>hector_sensors_description</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>

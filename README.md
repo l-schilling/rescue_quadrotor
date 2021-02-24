@@ -18,3 +18,10 @@ sudo apt-get install ros-melodic-joy
 sudo apt-get install ros-melodic-teleop-twist-keyboard
 
 ```
+
+Install hector_localization
+
+To **enable motors**
+
+
+	rosservice call /enable_motors "enable: true"
