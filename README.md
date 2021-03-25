@@ -19,7 +19,7 @@ sudo apt-get install ros-melodic-teleop-twist-keyboard
 
 ```
 
-Install hector_localization
+Install hector_localization: https://github.com/tu-darmstadt-ros-pkg/hector_localization
 
 To **enable motors**
 
