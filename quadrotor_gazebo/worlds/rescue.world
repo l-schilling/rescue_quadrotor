@@ -35,15 +35,19 @@
     </include>
     
     <!-- Test human -->
+
+    
     <include>
       <uri>model://test_human</uri>
-      <pose>10.5126 16.6371 19.0826 3.03588 1.56695 -3.14159</pose>
-    </include>
-    <include>
-      <uri>model://test_human</uri>
-      <pose>4.86766 0.088923 0 0.022612 1.56695 -3.14159</pose>
+      <name>human1</name>
+      <pose>2.76766 0.088923 0 0.022612 1.56695 -3.14159</pose>
     </include>
 
+    <include>
+      <uri>model://test_human</uri>
+      <name>human2</name>
+      <pose>10.5126 16.6371 19.0826 3.03588 1.56695 -3.14159</pose>
+    </include>
 
   </world>
 </sdf>
